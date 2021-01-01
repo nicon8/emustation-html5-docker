@@ -1,4 +1,4 @@
-Docker video dummy
+Emulation Station in a docker 
 ==================
 
 ## General Idea
