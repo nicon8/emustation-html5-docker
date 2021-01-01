@@ -1,9 +1,7 @@
-Emulation Station in a docker 
+Emulation Station in a docker container 
 ==================
 
 ## General Idea
-
-I wanted to provide the easiest way to play retrogames.
 
 This repo compiles and installs
 
@@ -29,7 +27,7 @@ cd RetroPie-Setup
 # Last checked
 git checkout ac8d87759f4cad763affbba624be4fb206790ceb
 
-docker build -t emustation 
+docker build -t emustation . 
 
 docker run -t \
       -e XDG_RUNTIME_DIR=/tmp -e DISPLAY=:1 -e TERM=xterm --shm-size=256m \
